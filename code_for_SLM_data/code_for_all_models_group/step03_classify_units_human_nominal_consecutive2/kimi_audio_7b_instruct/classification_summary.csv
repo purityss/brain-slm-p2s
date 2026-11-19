@@ -1,0 +1,5 @@
+Model,ModelSlug,Method,ClassCode,Class,Count,EligibleUnits,TotalUnits,PercentEligible
+Kimi-Audio-7B-Instruct,kimi_audio_7b_instruct,human_nominal_consecutive2,0,None,72528,147447,147456,49.189200187185904
+Kimi-Audio-7B-Instruct,kimi_audio_7b_instruct,human_nominal_consecutive2,1,P-only,69687,147447,147456,47.26240615271928
+Kimi-Audio-7B-Instruct,kimi_audio_7b_instruct,human_nominal_consecutive2,2,S-only,3252,147447,147456,2.2055382612057213
+Kimi-Audio-7B-Instruct,kimi_audio_7b_instruct,human_nominal_consecutive2,3,Shared,1980,147447,147456,1.3428553988890923

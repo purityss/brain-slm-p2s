@@ -1,0 +1,5 @@
+Model,ModelSlug,Method,ClassCode,Class,Count,EligibleUnits,TotalUnits,PercentEligible
+Qwen2.5-Omni,qwen2_5_omni,human_nominal_consecutive2,0,None,17129,147450,147456,11.616819260766361
+Qwen2.5-Omni,qwen2_5_omni,human_nominal_consecutive2,1,P-only,123351,147450,147456,83.65615462868769
+Qwen2.5-Omni,qwen2_5_omni,human_nominal_consecutive2,2,S-only,902,147450,147456,0.6117327907765344
+Qwen2.5-Omni,qwen2_5_omni,human_nominal_consecutive2,3,Shared,6068,147450,147456,4.115293319769413

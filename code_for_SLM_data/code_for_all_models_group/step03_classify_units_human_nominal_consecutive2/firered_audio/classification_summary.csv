@@ -1,0 +1,5 @@
+Model,ModelSlug,Method,ClassCode,Class,Count,EligibleUnits,TotalUnits,PercentEligible
+FireRedAudio,firered_audio,human_nominal_consecutive2,0,None,110041,178686,178688,61.58344805972488
+FireRedAudio,firered_audio,human_nominal_consecutive2,1,P-only,64666,178686,178688,36.18974066239101
+FireRedAudio,firered_audio,human_nominal_consecutive2,2,S-only,2530,178686,178688,1.4158915639725551
+FireRedAudio,firered_audio,human_nominal_consecutive2,3,Shared,1449,178686,178688,0.8109197139115544

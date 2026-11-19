@@ -1,0 +1,5 @@
+Model,ModelSlug,Method,ClassCode,Class,Count,EligibleUnits,TotalUnits,PercentEligible
+Qwen-Audio,qwen_audio,human_nominal_consecutive2,0,None,86327,178660,178688,48.31915369976492
+Qwen-Audio,qwen_audio,human_nominal_consecutive2,1,P-only,82823,178660,178688,46.3578864883018
+Qwen-Audio,qwen_audio,human_nominal_consecutive2,2,S-only,5621,178660,178688,3.1461994850554125
+Qwen-Audio,qwen_audio,human_nominal_consecutive2,3,Shared,3889,178660,178688,2.1767603268778686

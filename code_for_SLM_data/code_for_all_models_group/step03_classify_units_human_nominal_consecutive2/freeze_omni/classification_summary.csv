@@ -1,0 +1,5 @@
+Model,ModelSlug,Method,ClassCode,Class,Count,EligibleUnits,TotalUnits,PercentEligible
+Freeze-Omni,freeze_omni,human_nominal_consecutive2,0,None,505,130560,130560,0.3867953431372549
+Freeze-Omni,freeze_omni,human_nominal_consecutive2,1,P-only,127750,130560,130560,97.84773284313725
+Freeze-Omni,freeze_omni,human_nominal_consecutive2,2,S-only,5,130560,130560,0.003829656862745098
+Freeze-Omni,freeze_omni,human_nominal_consecutive2,3,Shared,2300,130560,130560,1.7616421568627452

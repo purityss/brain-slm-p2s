@@ -1,0 +1,7 @@
+model_key,condition,N,alpha,samples,failures,baseline_exact,baseline_incorrect,condition_exact,condition_incorrect,exact_delta
+baichuan_audio_base,p_only,1477,0.05,945,0,515,430,514,431,-1
+baichuan_audio_base,s_only,1477,0.05,945,0,515,430,514,431,-1
+baichuan_audio_base,shared,1477,0.05,945,0,515,430,521,424,6
+qwen2_audio,p_only,1786,0.05,945,0,397,548,391,554,-6
+qwen2_audio,s_only,1786,0.05,945,0,397,548,395,550,-2
+qwen2_audio,shared,1786,0.05,945,0,397,548,400,545,3

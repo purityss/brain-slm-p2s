@@ -1,0 +1,5 @@
+# Covo-Audio-Chat compatibility runtime on Python 3.10.
+# Tencent recommends Python >=3.11, but the a2t ASR dependency stack also
+# supports Python 3.10. Keep this environment separate from py310_SLM because
+# Covo requires Transformers 5 while py310_SLM pins Transformers 4.51.
+-r covo_common.txt

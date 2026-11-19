@@ -1,0 +1,10 @@
+# Shared Covo-Audio-Chat runtime dependencies for Python 3.10 or 3.11.
+# Install a compatible PyTorch stack first; see README.md.
+-r common.txt
+
+torch==2.8.0
+torchaudio==2.8.0
+torchvision==0.23.0
+transformers>=5.0.0rc2,<5.8
+json5==0.10.0
+torchdiffeq==0.2.5

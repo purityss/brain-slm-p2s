@@ -1,0 +1,5 @@
+Model,ModelSlug,Method,ClassCode,Class,Count,EligibleUnits,TotalUnits,PercentEligible
+MiniCPM-o 2.6,minicpm_o_2_6,human_nominal_consecutive2,0,None,48578,130512,130560,37.22109844305505
+MiniCPM-o 2.6,minicpm_o_2_6,human_nominal_consecutive2,1,P-only,73446,130512,130560,56.2752850312615
+MiniCPM-o 2.6,minicpm_o_2_6,human_nominal_consecutive2,2,S-only,3338,130512,130560,2.557619222753463
+MiniCPM-o 2.6,minicpm_o_2_6,human_nominal_consecutive2,3,Shared,5150,130512,130560,3.9459973029299986

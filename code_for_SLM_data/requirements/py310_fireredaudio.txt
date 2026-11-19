@@ -1,0 +1,27 @@
+# FireRedAudio's official Python 3.10 runtime.
+# Conda environment name: py310_fireredaudio
+# Do not combine this file with requirements.txt: upstream pins NumPy 2.2.6
+# and a newer Torch/Transformers stack.
+# PyTorch package versions are pinned here; the configured platform mirror
+# determines which CUDA build is provided.
+torch==2.11.0
+torchaudio==2.11.0
+torchvision==0.26.0
+torchcodec==0.11.1
+transformers==5.8.0
+numpy==2.2.6
+einops==0.8.2
+tqdm==4.67.3
+soundfile==0.13.1
+librosa==0.11.0
+scipy>=1.14,<2
+h5py>=3.12,<4
+safetensors>=0.5,<1
+accelerate>=1.6,<2
+
+# Optional acceleration packages are deliberately excluded. Install only
+# after confirming the compute-node CUDA toolkit and GPU architecture:
+# flash-linear-attention==0.5.0
+# liger-kernel==0.8.0
+# causal-conv1d==1.6.2.post1
+# flash-attn==2.8.3

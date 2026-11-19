@@ -1,0 +1,68 @@
+Model,ModelSlug,LayerOrderZeroBased,SourceLayerIndexZeroBased,LayerName,SequenceType,Units,WindowCount,NativeSequenceLength,WindowEdges,SourceDatasetPath
+FireRedAudio,firered_audio,0,0,audio_conv1,audio_native,1280,4,50,"[0, 12, 25, 38, 50]",/#refs#/layer_000
+FireRedAudio,firered_audio,1,1,audio_conv2,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_001
+FireRedAudio,firered_audio,2,2,audio_block_00,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_002
+FireRedAudio,firered_audio,3,3,audio_block_01,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_003
+FireRedAudio,firered_audio,4,4,audio_block_02,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_004
+FireRedAudio,firered_audio,5,5,audio_block_03,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_005
+FireRedAudio,firered_audio,6,6,audio_block_04,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_006
+FireRedAudio,firered_audio,7,7,audio_block_05,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_007
+FireRedAudio,firered_audio,8,8,audio_block_06,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_008
+FireRedAudio,firered_audio,9,9,audio_block_07,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_009
+FireRedAudio,firered_audio,10,10,audio_block_08,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_010
+FireRedAudio,firered_audio,11,11,audio_block_09,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_011
+FireRedAudio,firered_audio,12,12,audio_block_10,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_012
+FireRedAudio,firered_audio,13,13,audio_block_11,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_013
+FireRedAudio,firered_audio,14,14,audio_block_12,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_014
+FireRedAudio,firered_audio,15,15,audio_block_13,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_015
+FireRedAudio,firered_audio,16,16,audio_block_14,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_016
+FireRedAudio,firered_audio,17,17,audio_block_15,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_017
+FireRedAudio,firered_audio,18,18,audio_block_16,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_018
+FireRedAudio,firered_audio,19,19,audio_block_17,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_019
+FireRedAudio,firered_audio,20,20,audio_block_18,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_020
+FireRedAudio,firered_audio,21,21,audio_block_19,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_021
+FireRedAudio,firered_audio,22,22,audio_block_20,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_022
+FireRedAudio,firered_audio,23,23,audio_block_21,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_023
+FireRedAudio,firered_audio,24,24,audio_block_22,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_024
+FireRedAudio,firered_audio,25,25,audio_block_23,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_025
+FireRedAudio,firered_audio,26,26,audio_block_24,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_026
+FireRedAudio,firered_audio,27,27,audio_block_25,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_027
+FireRedAudio,firered_audio,28,28,audio_block_26,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_028
+FireRedAudio,firered_audio,29,29,audio_block_27,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_029
+FireRedAudio,firered_audio,30,30,audio_block_28,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_030
+FireRedAudio,firered_audio,31,31,audio_block_29,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_031
+FireRedAudio,firered_audio,32,32,audio_block_30,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_032
+FireRedAudio,firered_audio,33,33,audio_block_31,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_033
+FireRedAudio,firered_audio,34,34,multimodal_projector,audio_projected,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_034
+FireRedAudio,firered_audio,35,35,decoder_block_00,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_035
+FireRedAudio,firered_audio,36,36,decoder_block_01,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_036
+FireRedAudio,firered_audio,37,37,decoder_block_02,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_037
+FireRedAudio,firered_audio,38,38,decoder_block_03,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_038
+FireRedAudio,firered_audio,39,39,decoder_block_04,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_039
+FireRedAudio,firered_audio,40,40,decoder_block_05,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_040
+FireRedAudio,firered_audio,41,41,decoder_block_06,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_041
+FireRedAudio,firered_audio,42,42,decoder_block_07,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_042
+FireRedAudio,firered_audio,43,43,decoder_block_08,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_043
+FireRedAudio,firered_audio,44,44,decoder_block_09,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_044
+FireRedAudio,firered_audio,45,45,decoder_block_10,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_045
+FireRedAudio,firered_audio,46,46,decoder_block_11,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_046
+FireRedAudio,firered_audio,47,47,decoder_block_12,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_047
+FireRedAudio,firered_audio,48,48,decoder_block_13,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_048
+FireRedAudio,firered_audio,49,49,decoder_block_14,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_049
+FireRedAudio,firered_audio,50,50,decoder_block_15,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_050
+FireRedAudio,firered_audio,51,51,decoder_block_16,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_051
+FireRedAudio,firered_audio,52,52,decoder_block_17,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_052
+FireRedAudio,firered_audio,53,53,decoder_block_18,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_053
+FireRedAudio,firered_audio,54,54,decoder_block_19,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_054
+FireRedAudio,firered_audio,55,55,decoder_block_20,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_055
+FireRedAudio,firered_audio,56,56,decoder_block_21,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_056
+FireRedAudio,firered_audio,57,57,decoder_block_22,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_057
+FireRedAudio,firered_audio,58,58,decoder_block_23,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_058
+FireRedAudio,firered_audio,59,59,decoder_block_24,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_059
+FireRedAudio,firered_audio,60,60,decoder_block_25,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_060
+FireRedAudio,firered_audio,61,61,decoder_block_26,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_061
+FireRedAudio,firered_audio,62,62,decoder_block_27,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_062
+FireRedAudio,firered_audio,63,63,decoder_block_28,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_063
+FireRedAudio,firered_audio,64,64,decoder_block_29,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_064
+FireRedAudio,firered_audio,65,65,decoder_block_30,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_065
+FireRedAudio,firered_audio,66,66,decoder_block_31,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_066

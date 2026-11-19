@@ -1,0 +1,28 @@
+# Main Python 3.10 runtime for the legacy/Qwen/MiniCPM model group.
+# Conda environment name: py310_SLM
+# Also install requirements/conda_py310_SLM.txt with Conda.  ffmpeg is an
+# executable dependency and cannot be supplied by a pip requirements file.
+# PyTorch package versions are pinned here; the configured platform mirror
+# determines which CUDA build is provided.
+-r common.txt
+
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
+transformers==4.51.0
+# Required by both Baichuan-Audio checkpoints (Matcha audio modules).
+diffusers==0.32.2
+# Required at model-import time by both Baichuan-Audio checkpoints.
+easydict==1.13
+omegaconf==2.3.0
+ujson==5.10.0
+# Required at model-import time by Qwen-Audio and Qwen-Audio-Chat.
+transformers-stream-generator==0.0.5
+opencv-python-headless==4.11.0.86
+imagesize==1.5.0
+CairoSVG==2.8.2
+
+# Deliberately omitted: minicpmo-utils. It is needed for MiniCPM-o Token2Wav,
+# TTS and video helpers, but this project uses audio input with text-only output
+# (generate_audio=False). Versions 1.0.5/1.0.6 hard-pin obsolete Pillow and
+# librosa releases and are unnecessary for ASR evaluation/activation extraction.

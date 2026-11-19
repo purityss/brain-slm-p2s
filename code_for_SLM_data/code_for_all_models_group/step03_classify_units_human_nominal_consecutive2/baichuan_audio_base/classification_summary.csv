@@ -1,0 +1,5 @@
+Model,ModelSlug,Method,ClassCode,Class,Count,EligibleUnits,TotalUnits,PercentEligible
+Baichuan-Audio-Base,baichuan_audio_base,human_nominal_consecutive2,0,None,89416,147682,147712,60.546308961146245
+Baichuan-Audio-Base,baichuan_audio_base,human_nominal_consecutive2,1,P-only,49231,147682,147712,33.33581614550182
+Baichuan-Audio-Base,baichuan_audio_base,human_nominal_consecutive2,2,S-only,7338,147682,147712,4.96878427973619
+Baichuan-Audio-Base,baichuan_audio_base,human_nominal_consecutive2,3,Shared,1697,147682,147712,1.149090613615742

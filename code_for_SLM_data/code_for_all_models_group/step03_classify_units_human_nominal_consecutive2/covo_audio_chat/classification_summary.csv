@@ -1,0 +1,5 @@
+Model,ModelSlug,Method,ClassCode,Class,Count,EligibleUnits,TotalUnits,PercentEligible
+Covo-Audio-Chat,covo_audio_chat,human_nominal_consecutive2,0,None,98266,147407,147456,66.66304856621463
+Covo-Audio-Chat,covo_audio_chat,human_nominal_consecutive2,1,P-only,46549,147407,147456,31.578554614095665
+Covo-Audio-Chat,covo_audio_chat,human_nominal_consecutive2,2,S-only,1916,147407,147456,1.2998025873940857
+Covo-Audio-Chat,covo_audio_chat,human_nominal_consecutive2,3,Shared,676,147407,147456,0.4585942322956169

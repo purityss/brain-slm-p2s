@@ -1,0 +1,60 @@
+Model,ModelSlug,LayerOrderZeroBased,SourceLayerIndexZeroBased,LayerName,SequenceType,Units,WindowCount,NativeSequenceLength,WindowEdges,SourceDatasetPath
+GLM-4-Voice,glm_4_voice,0,0,audio_conv1,audio_native,1280,4,50,"[0, 12, 25, 38, 50]",/#refs#/layer_000
+GLM-4-Voice,glm_4_voice,1,1,audio_conv2,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_001
+GLM-4-Voice,glm_4_voice,2,2,audio_block_00,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_002
+GLM-4-Voice,glm_4_voice,3,3,audio_block_01,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_003
+GLM-4-Voice,glm_4_voice,4,4,audio_block_02,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_004
+GLM-4-Voice,glm_4_voice,5,5,audio_block_03,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_005
+GLM-4-Voice,glm_4_voice,6,6,audio_block_04,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_006
+GLM-4-Voice,glm_4_voice,7,7,audio_block_05,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_007
+GLM-4-Voice,glm_4_voice,8,8,audio_block_06,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_008
+GLM-4-Voice,glm_4_voice,9,9,audio_block_07,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_009
+GLM-4-Voice,glm_4_voice,10,10,audio_block_08,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_010
+GLM-4-Voice,glm_4_voice,11,11,audio_block_09,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_011
+GLM-4-Voice,glm_4_voice,12,12,audio_block_10,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_012
+GLM-4-Voice,glm_4_voice,13,13,audio_block_11,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_013
+GLM-4-Voice,glm_4_voice,14,14,audio_block_12,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_014
+GLM-4-Voice,glm_4_voice,15,15,audio_block_13,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_015
+GLM-4-Voice,glm_4_voice,16,16,audio_block_14,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_016
+GLM-4-Voice,glm_4_voice,17,17,audio_block_15,audio_native,1280,4,25,"[0, 6, 12, 19, 25]",/#refs#/layer_017
+GLM-4-Voice,glm_4_voice,18,18,speech_vq_projection,audio_discrete_projected,1280,3,7,"[0, 2, 5, 7]",/#refs#/layer_018
+GLM-4-Voice,glm_4_voice,19,19,decoder_block_00,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_019
+GLM-4-Voice,glm_4_voice,20,20,decoder_block_01,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_020
+GLM-4-Voice,glm_4_voice,21,21,decoder_block_02,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_021
+GLM-4-Voice,glm_4_voice,22,22,decoder_block_03,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_022
+GLM-4-Voice,glm_4_voice,23,23,decoder_block_04,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_023
+GLM-4-Voice,glm_4_voice,24,24,decoder_block_05,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_024
+GLM-4-Voice,glm_4_voice,25,25,decoder_block_06,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_025
+GLM-4-Voice,glm_4_voice,26,26,decoder_block_07,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_026
+GLM-4-Voice,glm_4_voice,27,27,decoder_block_08,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_027
+GLM-4-Voice,glm_4_voice,28,28,decoder_block_09,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_028
+GLM-4-Voice,glm_4_voice,29,29,decoder_block_10,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_029
+GLM-4-Voice,glm_4_voice,30,30,decoder_block_11,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_030
+GLM-4-Voice,glm_4_voice,31,31,decoder_block_12,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_031
+GLM-4-Voice,glm_4_voice,32,32,decoder_block_13,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_032
+GLM-4-Voice,glm_4_voice,33,33,decoder_block_14,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_033
+GLM-4-Voice,glm_4_voice,34,34,decoder_block_15,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_034
+GLM-4-Voice,glm_4_voice,35,35,decoder_block_16,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_035
+GLM-4-Voice,glm_4_voice,36,36,decoder_block_17,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_036
+GLM-4-Voice,glm_4_voice,37,37,decoder_block_18,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_037
+GLM-4-Voice,glm_4_voice,38,38,decoder_block_19,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_038
+GLM-4-Voice,glm_4_voice,39,39,decoder_block_20,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_039
+GLM-4-Voice,glm_4_voice,40,40,decoder_block_21,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_040
+GLM-4-Voice,glm_4_voice,41,41,decoder_block_22,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_041
+GLM-4-Voice,glm_4_voice,42,42,decoder_block_23,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_042
+GLM-4-Voice,glm_4_voice,43,43,decoder_block_24,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_043
+GLM-4-Voice,glm_4_voice,44,44,decoder_block_25,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_044
+GLM-4-Voice,glm_4_voice,45,45,decoder_block_26,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_045
+GLM-4-Voice,glm_4_voice,46,46,decoder_block_27,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_046
+GLM-4-Voice,glm_4_voice,47,47,decoder_block_28,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_047
+GLM-4-Voice,glm_4_voice,48,48,decoder_block_29,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_048
+GLM-4-Voice,glm_4_voice,49,49,decoder_block_30,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_049
+GLM-4-Voice,glm_4_voice,50,50,decoder_block_31,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_050
+GLM-4-Voice,glm_4_voice,51,51,decoder_block_32,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_051
+GLM-4-Voice,glm_4_voice,52,52,decoder_block_33,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_052
+GLM-4-Voice,glm_4_voice,53,53,decoder_block_34,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_053
+GLM-4-Voice,glm_4_voice,54,54,decoder_block_35,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_054
+GLM-4-Voice,glm_4_voice,55,55,decoder_block_36,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_055
+GLM-4-Voice,glm_4_voice,56,56,decoder_block_37,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_056
+GLM-4-Voice,glm_4_voice,57,57,decoder_block_38,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_057
+GLM-4-Voice,glm_4_voice,58,58,decoder_block_39,decoder_prefill_audio,4096,3,7,"[0, 2, 5, 7]",/#refs#/layer_058

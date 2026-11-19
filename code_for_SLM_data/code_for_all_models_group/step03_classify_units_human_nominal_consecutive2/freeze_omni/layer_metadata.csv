@@ -1,0 +1,56 @@
+Model,ModelSlug,LayerOrderZeroBased,SourceLayerIndexZeroBased,LayerName,SequenceType,Units,WindowCount,NativeSequenceLength,WindowEdges,SourceDatasetPath
+Freeze-Omni,freeze_omni,0,0,audio_conv1,audio_native_time_frequency,1024,4,975,"[0, 244, 488, 731, 975]",/#refs#/layer_000
+Freeze-Omni,freeze_omni,1,1,audio_conv2,audio_native_time_frequency,1024,4,247,"[0, 62, 124, 185, 247]",/#refs#/layer_001
+Freeze-Omni,freeze_omni,2,2,audio_block_00,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_002
+Freeze-Omni,freeze_omni,3,3,audio_block_01,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_003
+Freeze-Omni,freeze_omni,4,4,audio_block_02,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_004
+Freeze-Omni,freeze_omni,5,5,audio_block_03,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_005
+Freeze-Omni,freeze_omni,6,6,audio_block_04,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_006
+Freeze-Omni,freeze_omni,7,7,audio_block_05,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_007
+Freeze-Omni,freeze_omni,8,8,audio_block_06,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_008
+Freeze-Omni,freeze_omni,9,9,audio_block_07,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_009
+Freeze-Omni,freeze_omni,10,10,audio_block_08,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_010
+Freeze-Omni,freeze_omni,11,11,audio_block_09,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_011
+Freeze-Omni,freeze_omni,12,12,audio_block_10,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_012
+Freeze-Omni,freeze_omni,13,13,audio_block_11,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_013
+Freeze-Omni,freeze_omni,14,14,audio_block_12,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_014
+Freeze-Omni,freeze_omni,15,15,audio_block_13,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_015
+Freeze-Omni,freeze_omni,16,16,audio_block_14,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_016
+Freeze-Omni,freeze_omni,17,17,audio_block_15,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_017
+Freeze-Omni,freeze_omni,18,18,audio_block_16,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_018
+Freeze-Omni,freeze_omni,19,19,audio_block_17,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_019
+Freeze-Omni,freeze_omni,20,20,audio_block_18,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_020
+Freeze-Omni,freeze_omni,21,21,audio_block_19,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_021
+Freeze-Omni,freeze_omni,22,22,audio_block_20,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_022
+Freeze-Omni,freeze_omni,23,23,audio_block_21,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_023
+Freeze-Omni,freeze_omni,24,24,audio_block_22,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_024
+Freeze-Omni,freeze_omni,25,25,audio_block_23,audio_native,1024,4,13,"[0, 3, 6, 10, 13]",/#refs#/layer_025
+Freeze-Omni,freeze_omni,26,26,multimodal_projector,audio_projected,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_026
+Freeze-Omni,freeze_omni,27,27,decoder_block_00,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_027
+Freeze-Omni,freeze_omni,28,28,decoder_block_01,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_028
+Freeze-Omni,freeze_omni,29,29,decoder_block_02,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_029
+Freeze-Omni,freeze_omni,30,30,decoder_block_03,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_030
+Freeze-Omni,freeze_omni,31,31,decoder_block_04,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_031
+Freeze-Omni,freeze_omni,32,32,decoder_block_05,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_032
+Freeze-Omni,freeze_omni,33,33,decoder_block_06,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_033
+Freeze-Omni,freeze_omni,34,34,decoder_block_07,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_034
+Freeze-Omni,freeze_omni,35,35,decoder_block_08,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_035
+Freeze-Omni,freeze_omni,36,36,decoder_block_09,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_036
+Freeze-Omni,freeze_omni,37,37,decoder_block_10,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_037
+Freeze-Omni,freeze_omni,38,38,decoder_block_11,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_038
+Freeze-Omni,freeze_omni,39,39,decoder_block_12,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_039
+Freeze-Omni,freeze_omni,40,40,decoder_block_13,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_040
+Freeze-Omni,freeze_omni,41,41,decoder_block_14,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_041
+Freeze-Omni,freeze_omni,42,42,decoder_block_15,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_042
+Freeze-Omni,freeze_omni,43,43,decoder_block_16,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_043
+Freeze-Omni,freeze_omni,44,44,decoder_block_17,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_044
+Freeze-Omni,freeze_omni,45,45,decoder_block_18,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_045
+Freeze-Omni,freeze_omni,46,46,decoder_block_19,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_046
+Freeze-Omni,freeze_omni,47,47,decoder_block_20,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_047
+Freeze-Omni,freeze_omni,48,48,decoder_block_21,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_048
+Freeze-Omni,freeze_omni,49,49,decoder_block_22,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_049
+Freeze-Omni,freeze_omni,50,50,decoder_block_23,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_050
+Freeze-Omni,freeze_omni,51,51,decoder_block_24,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_051
+Freeze-Omni,freeze_omni,52,52,decoder_block_25,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_052
+Freeze-Omni,freeze_omni,53,53,decoder_block_26,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_053
+Freeze-Omni,freeze_omni,54,54,decoder_block_27,decoder_streaming_audio_position,3584,3,7,"[0, 2, 5, 7]",/#refs#/layer_054

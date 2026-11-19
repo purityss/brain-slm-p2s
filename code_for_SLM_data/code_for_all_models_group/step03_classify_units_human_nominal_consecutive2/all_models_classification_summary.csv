@@ -1,0 +1,57 @@
+Model,ModelSlug,Method,ClassCode,Class,Count,EligibleUnits,TotalUnits,PercentEligible
+Baichuan-Audio-Base,baichuan_audio_base,human_nominal_consecutive2,0,None,89416,147682,147712,60.546308961146245
+Baichuan-Audio-Base,baichuan_audio_base,human_nominal_consecutive2,1,P-only,49231,147682,147712,33.33581614550182
+Baichuan-Audio-Base,baichuan_audio_base,human_nominal_consecutive2,2,S-only,7338,147682,147712,4.96878427973619
+Baichuan-Audio-Base,baichuan_audio_base,human_nominal_consecutive2,3,Shared,1697,147682,147712,1.149090613615742
+Baichuan-Audio-Instruct,baichuan_audio_instruct,human_nominal_consecutive2,0,None,93134,147681,147712,63.064307527711755
+Baichuan-Audio-Instruct,baichuan_audio_instruct,human_nominal_consecutive2,1,P-only,46345,147681,147712,31.381829754673927
+Baichuan-Audio-Instruct,baichuan_audio_instruct,human_nominal_consecutive2,2,S-only,6864,147681,147712,4.6478558514636275
+Baichuan-Audio-Instruct,baichuan_audio_instruct,human_nominal_consecutive2,3,Shared,1338,147681,147712,0.9060068661506897
+Covo-Audio-Chat,covo_audio_chat,human_nominal_consecutive2,0,None,98266,147407,147456,66.66304856621463
+Covo-Audio-Chat,covo_audio_chat,human_nominal_consecutive2,1,P-only,46549,147407,147456,31.578554614095665
+Covo-Audio-Chat,covo_audio_chat,human_nominal_consecutive2,2,S-only,1916,147407,147456,1.2998025873940857
+Covo-Audio-Chat,covo_audio_chat,human_nominal_consecutive2,3,Shared,676,147407,147456,0.4585942322956169
+FireRedAudio,firered_audio,human_nominal_consecutive2,0,None,110041,178686,178688,61.58344805972488
+FireRedAudio,firered_audio,human_nominal_consecutive2,1,P-only,64666,178686,178688,36.18974066239101
+FireRedAudio,firered_audio,human_nominal_consecutive2,2,S-only,2530,178686,178688,1.4158915639725551
+FireRedAudio,firered_audio,human_nominal_consecutive2,3,Shared,1449,178686,178688,0.8109197139115544
+Freeze-Omni,freeze_omni,human_nominal_consecutive2,0,None,505,130560,130560,0.3867953431372549
+Freeze-Omni,freeze_omni,human_nominal_consecutive2,1,P-only,127750,130560,130560,97.84773284313725
+Freeze-Omni,freeze_omni,human_nominal_consecutive2,2,S-only,5,130560,130560,0.003829656862745098
+Freeze-Omni,freeze_omni,human_nominal_consecutive2,3,Shared,2300,130560,130560,1.7616421568627452
+GLM-4-Voice,glm_4_voice,human_nominal_consecutive2,0,None,11263,188041,188160,5.989651193090869
+GLM-4-Voice,glm_4_voice,human_nominal_consecutive2,1,P-only,175237,188041,188160,93.19084667705447
+GLM-4-Voice,glm_4_voice,human_nominal_consecutive2,2,S-only,22,188041,188160,0.011699576156263793
+GLM-4-Voice,glm_4_voice,human_nominal_consecutive2,3,Shared,1519,188041,188160,0.8078025536983956
+Kimi-Audio-7B-Instruct,kimi_audio_7b_instruct,human_nominal_consecutive2,0,None,72528,147447,147456,49.189200187185904
+Kimi-Audio-7B-Instruct,kimi_audio_7b_instruct,human_nominal_consecutive2,1,P-only,69687,147447,147456,47.26240615271928
+Kimi-Audio-7B-Instruct,kimi_audio_7b_instruct,human_nominal_consecutive2,2,S-only,3252,147447,147456,2.2055382612057213
+Kimi-Audio-7B-Instruct,kimi_audio_7b_instruct,human_nominal_consecutive2,3,Shared,1980,147447,147456,1.3428553988890923
+MiniCPM-o 2.6,minicpm_o_2_6,human_nominal_consecutive2,0,None,48578,130512,130560,37.22109844305505
+MiniCPM-o 2.6,minicpm_o_2_6,human_nominal_consecutive2,1,P-only,73446,130512,130560,56.2752850312615
+MiniCPM-o 2.6,minicpm_o_2_6,human_nominal_consecutive2,2,S-only,3338,130512,130560,2.557619222753463
+MiniCPM-o 2.6,minicpm_o_2_6,human_nominal_consecutive2,3,Shared,5150,130512,130560,3.9459973029299986
+MiniCPM-o 4.5,minicpm_o_4_5,human_nominal_consecutive2,0,None,122670,178125,178176,68.86736842105263
+MiniCPM-o 4.5,minicpm_o_4_5,human_nominal_consecutive2,1,P-only,52645,178125,178176,29.555087719298246
+MiniCPM-o 4.5,minicpm_o_4_5,human_nominal_consecutive2,2,S-only,1978,178125,178176,1.1104561403508773
+MiniCPM-o 4.5,minicpm_o_4_5,human_nominal_consecutive2,3,Shared,832,178125,178176,0.4670877192982456
+Qwen-Audio,qwen_audio,human_nominal_consecutive2,0,None,86327,178660,178688,48.31915369976492
+Qwen-Audio,qwen_audio,human_nominal_consecutive2,1,P-only,82823,178660,178688,46.3578864883018
+Qwen-Audio,qwen_audio,human_nominal_consecutive2,2,S-only,5621,178660,178688,3.1461994850554125
+Qwen-Audio,qwen_audio,human_nominal_consecutive2,3,Shared,3889,178660,178688,2.1767603268778686
+Qwen-Audio-Chat,qwen_audio_chat,human_nominal_consecutive2,0,None,84380,178660,178688,47.22937423038173
+Qwen-Audio-Chat,qwen_audio_chat,human_nominal_consecutive2,1,P-only,83624,178660,178688,46.806224112840034
+Qwen-Audio-Chat,qwen_audio_chat,human_nominal_consecutive2,2,S-only,6372,178660,178688,3.5665509907086084
+Qwen-Audio-Chat,qwen_audio_chat,human_nominal_consecutive2,3,Shared,4284,178660,178688,2.3978506660696293
+Qwen2-Audio,qwen2_audio,human_nominal_consecutive2,0,None,28489,178579,178688,15.95316358586396
+Qwen2-Audio,qwen2_audio,human_nominal_consecutive2,1,P-only,135944,178579,178688,76.12541228251922
+Qwen2-Audio,qwen2_audio,human_nominal_consecutive2,2,S-only,3006,178579,178688,1.683288628562149
+Qwen2-Audio,qwen2_audio,human_nominal_consecutive2,3,Shared,11140,178579,178688,6.238135503054671
+Qwen2-Audio-Instruct,qwen2_audio_instruct,human_nominal_consecutive2,0,None,26294,178579,178688,14.724015701734247
+Qwen2-Audio-Instruct,qwen2_audio_instruct,human_nominal_consecutive2,1,P-only,134531,178579,178688,75.33416583136875
+Qwen2-Audio-Instruct,qwen2_audio_instruct,human_nominal_consecutive2,2,S-only,3524,178579,178688,1.973356329691621
+Qwen2-Audio-Instruct,qwen2_audio_instruct,human_nominal_consecutive2,3,Shared,14230,178579,178688,7.968462137205383
+Qwen2.5-Omni,qwen2_5_omni,human_nominal_consecutive2,0,None,17129,147450,147456,11.616819260766361
+Qwen2.5-Omni,qwen2_5_omni,human_nominal_consecutive2,1,P-only,123351,147450,147456,83.65615462868769
+Qwen2.5-Omni,qwen2_5_omni,human_nominal_consecutive2,2,S-only,902,147450,147456,0.6117327907765344
+Qwen2.5-Omni,qwen2_5_omni,human_nominal_consecutive2,3,Shared,6068,147450,147456,4.115293319769413

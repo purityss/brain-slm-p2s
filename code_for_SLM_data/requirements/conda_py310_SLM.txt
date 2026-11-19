@@ -1,0 +1,8 @@
+# Non-PyPI runtime packages for py310_SLM.
+# Install from conda-forge with:
+# conda install -n py310_SLM -c conda-forge --file requirements/conda_py310_SLM.txt -y
+
+# Qwen-Audio and Qwen-Audio-Chat use the ffmpeg executable in their official
+# audio loader. Keep this below version 7 for compatibility with the released
+# model code and to make Step04 preprocessing match Step01 exactly.
+ffmpeg<7

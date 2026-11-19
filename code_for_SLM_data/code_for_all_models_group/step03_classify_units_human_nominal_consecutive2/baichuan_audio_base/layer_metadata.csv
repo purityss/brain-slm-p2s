@@ -1,0 +1,63 @@
+Model,ModelSlug,LayerOrderZeroBased,SourceLayerIndexZeroBased,LayerName,SequenceType,Units,WindowCount,NativeSequenceLength,WindowEdges,SourceDatasetPath
+Baichuan-Audio-Base,baichuan_audio_base,0,0,audio_conv2,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_000
+Baichuan-Audio-Base,baichuan_audio_base,1,1,audio_block_00,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_001
+Baichuan-Audio-Base,baichuan_audio_base,2,2,audio_block_01,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_002
+Baichuan-Audio-Base,baichuan_audio_base,3,3,audio_block_02,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_003
+Baichuan-Audio-Base,baichuan_audio_base,4,4,audio_block_03,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_004
+Baichuan-Audio-Base,baichuan_audio_base,5,5,audio_block_04,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_005
+Baichuan-Audio-Base,baichuan_audio_base,6,6,audio_block_05,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_006
+Baichuan-Audio-Base,baichuan_audio_base,7,7,audio_block_06,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_007
+Baichuan-Audio-Base,baichuan_audio_base,8,8,audio_block_07,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_008
+Baichuan-Audio-Base,baichuan_audio_base,9,9,audio_block_08,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_009
+Baichuan-Audio-Base,baichuan_audio_base,10,10,audio_block_09,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_010
+Baichuan-Audio-Base,baichuan_audio_base,11,11,audio_block_10,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_011
+Baichuan-Audio-Base,baichuan_audio_base,12,12,audio_block_11,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_012
+Baichuan-Audio-Base,baichuan_audio_base,13,13,audio_block_12,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_013
+Baichuan-Audio-Base,baichuan_audio_base,14,14,audio_block_13,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_014
+Baichuan-Audio-Base,baichuan_audio_base,15,15,audio_block_14,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_015
+Baichuan-Audio-Base,baichuan_audio_base,16,16,audio_block_15,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_016
+Baichuan-Audio-Base,baichuan_audio_base,17,17,audio_block_16,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_017
+Baichuan-Audio-Base,baichuan_audio_base,18,18,audio_block_17,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_018
+Baichuan-Audio-Base,baichuan_audio_base,19,19,audio_block_18,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_019
+Baichuan-Audio-Base,baichuan_audio_base,20,20,audio_block_19,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_020
+Baichuan-Audio-Base,baichuan_audio_base,21,21,audio_block_20,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_021
+Baichuan-Audio-Base,baichuan_audio_base,22,22,audio_block_21,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_022
+Baichuan-Audio-Base,baichuan_audio_base,23,23,audio_block_22,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_023
+Baichuan-Audio-Base,baichuan_audio_base,24,24,audio_block_23,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_024
+Baichuan-Audio-Base,baichuan_audio_base,25,25,audio_block_24,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_025
+Baichuan-Audio-Base,baichuan_audio_base,26,26,audio_block_25,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_026
+Baichuan-Audio-Base,baichuan_audio_base,27,27,audio_block_26,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_027
+Baichuan-Audio-Base,baichuan_audio_base,28,28,audio_block_27,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_028
+Baichuan-Audio-Base,baichuan_audio_base,29,29,audio_block_28,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_029
+Baichuan-Audio-Base,baichuan_audio_base,30,30,audio_block_29,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_030
+Baichuan-Audio-Base,baichuan_audio_base,31,31,audio_block_30,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_031
+Baichuan-Audio-Base,baichuan_audio_base,32,32,audio_block_31,audio_native,1280,4,26,"[0, 6, 13, 20, 26]",/#refs#/layer_032
+Baichuan-Audio-Base,baichuan_audio_base,33,33,audio_bridge_pre_vq,audio_projected_pre_vq,5120,3,6,"[0, 2, 4, 6]",/#refs#/layer_033
+Baichuan-Audio-Base,baichuan_audio_base,34,34,decoder_block_00,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_034
+Baichuan-Audio-Base,baichuan_audio_base,35,35,decoder_block_01,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_035
+Baichuan-Audio-Base,baichuan_audio_base,36,36,decoder_block_02,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_036
+Baichuan-Audio-Base,baichuan_audio_base,37,37,decoder_block_03,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_037
+Baichuan-Audio-Base,baichuan_audio_base,38,38,decoder_block_04,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_038
+Baichuan-Audio-Base,baichuan_audio_base,39,39,decoder_block_05,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_039
+Baichuan-Audio-Base,baichuan_audio_base,40,40,decoder_block_06,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_040
+Baichuan-Audio-Base,baichuan_audio_base,41,41,decoder_block_07,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_041
+Baichuan-Audio-Base,baichuan_audio_base,42,42,decoder_block_08,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_042
+Baichuan-Audio-Base,baichuan_audio_base,43,43,decoder_block_09,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_043
+Baichuan-Audio-Base,baichuan_audio_base,44,44,decoder_block_10,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_044
+Baichuan-Audio-Base,baichuan_audio_base,45,45,decoder_block_11,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_045
+Baichuan-Audio-Base,baichuan_audio_base,46,46,decoder_block_12,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_046
+Baichuan-Audio-Base,baichuan_audio_base,47,47,decoder_block_13,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_047
+Baichuan-Audio-Base,baichuan_audio_base,48,48,decoder_block_14,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_048
+Baichuan-Audio-Base,baichuan_audio_base,49,49,decoder_block_15,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_049
+Baichuan-Audio-Base,baichuan_audio_base,50,50,decoder_block_16,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_050
+Baichuan-Audio-Base,baichuan_audio_base,51,51,decoder_block_17,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_051
+Baichuan-Audio-Base,baichuan_audio_base,52,52,decoder_block_18,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_052
+Baichuan-Audio-Base,baichuan_audio_base,53,53,decoder_block_19,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_053
+Baichuan-Audio-Base,baichuan_audio_base,54,54,decoder_block_20,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_054
+Baichuan-Audio-Base,baichuan_audio_base,55,55,decoder_block_21,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_055
+Baichuan-Audio-Base,baichuan_audio_base,56,56,decoder_block_22,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_056
+Baichuan-Audio-Base,baichuan_audio_base,57,57,decoder_block_23,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_057
+Baichuan-Audio-Base,baichuan_audio_base,58,58,decoder_block_24,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_058
+Baichuan-Audio-Base,baichuan_audio_base,59,59,decoder_block_25,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_059
+Baichuan-Audio-Base,baichuan_audio_base,60,60,decoder_block_26,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_060
+Baichuan-Audio-Base,baichuan_audio_base,61,61,decoder_block_27,decoder_prefill_audio,3584,3,6,"[0, 2, 4, 6]",/#refs#/layer_061

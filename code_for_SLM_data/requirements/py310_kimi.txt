@@ -1,0 +1,36 @@
+# Kimi-Audio Python 3.10 runtime.
+# Conda environment name: py310_kimi
+# The official Kimi-Audio source tree (kimia_infer) must also be present on
+# PYTHONPATH; it is not published as a normal PyPI package.
+# PyTorch package versions are pinned here; the configured platform mirror
+# determines which CUDA build is provided.
+-r common.txt
+
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
+transformers==4.44.1
+tokenizers>=0.19,<0.20
+
+jsonlines==4.0.0
+validators>=0.34,<1
+sty==1.0.6
+omegaconf==2.3.0
+six==1.16.0
+hyperpyyaml==1.2.2
+conformer==0.3.2
+diffusers==0.32.2
+easydict==1.13
+fire==0.7.1
+ujson==5.10.0
+immutabledict==4.2.1
+rich==13.9.4
+loguru==0.7.3
+torchdyn==1.0.6
+timm==1.0.15
+blobfile==3.0.0
+
+# Kimi's MoonshotAttention calls FlashAttention directly.  This official
+# prebuilt wheel matches Linux CPython 3.10, PyTorch 2.6, CUDA 12 and ABI=False;
+# it avoids a source build on cluster login nodes that do not provide nvcc.
+flash-attn @ https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1%2Bcu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl

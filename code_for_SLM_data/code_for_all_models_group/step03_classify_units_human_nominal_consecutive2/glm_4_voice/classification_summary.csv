@@ -1,0 +1,5 @@
+Model,ModelSlug,Method,ClassCode,Class,Count,EligibleUnits,TotalUnits,PercentEligible
+GLM-4-Voice,glm_4_voice,human_nominal_consecutive2,0,None,11263,188041,188160,5.989651193090869
+GLM-4-Voice,glm_4_voice,human_nominal_consecutive2,1,P-only,175237,188041,188160,93.19084667705447
+GLM-4-Voice,glm_4_voice,human_nominal_consecutive2,2,S-only,22,188041,188160,0.011699576156263793
+GLM-4-Voice,glm_4_voice,human_nominal_consecutive2,3,Shared,1519,188041,188160,0.8078025536983956

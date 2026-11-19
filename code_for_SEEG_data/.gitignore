@@ -1,0 +1,6 @@
+# Recreate figures locally with the MATLAB scripts.
+*.png
+*.pdf
+*.fig
+*.jpg
+*.jpeg
