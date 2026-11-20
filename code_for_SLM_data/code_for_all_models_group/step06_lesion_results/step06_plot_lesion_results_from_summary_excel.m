@@ -4,8 +4,8 @@
 %
 % INPUT
 % -----
-% D:\code\code_for_SLM_Project\code_for_SLM_data\
-%   code_for_all_models_group\step06_lesion_results\lesion_summary\
+% code_for_SLM_data/
+%   code_for_all_models_group/step06_lesion_results/lesion_summary/
 %       <model>.xlsx
 %
 % Each Excel file is expected to contain:
