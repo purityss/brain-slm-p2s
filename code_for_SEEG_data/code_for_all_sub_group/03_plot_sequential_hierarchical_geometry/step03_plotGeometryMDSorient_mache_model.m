@@ -55,7 +55,7 @@
 %    across 16 P tests and 16 S tests within each contact class.
 %
 % 5) MDS:
-%    group-level participant-first RAW cosine-distance RDMs -> 2-D metric MDS
+%    group-level participant-first RAW cosine-distance RDMs -> 2-D nonmetric MDS
 %    -> unit-radius normalization -> Procrustes alignment of late to early.
 %    A SINGLE final rotation, defined by the LATE semantic-category centroid
 %    axis, is applied identically to both time points. The rotation changes
@@ -208,7 +208,7 @@ geometry_correction = 'holm';
 correction_family = 'separate_P_and_S_across_16_windows';
 
 % ------------------------------- MDS style -------------------------------
-% FINAL embedding method: metric MDS on the RAW group cosine-distance RDM.
+% FINAL embedding method: nonmetric MDS on the RAW group cosine-distance RDM.
 % Do NOT feed the display-normalized RDM into MDS.
 mds_seed = 20260920;
 mds_time_spacing = 1.8;
@@ -1166,10 +1166,10 @@ end
 
 
 function [Y1,Y2] = aligned_mds_pair(R1,R2)
-% Metric MDS visualization from RAW cosine-distance RDMs.
+% Nonmetric MDS visualization from RAW cosine-distance RDMs.
 %
 % Pipeline:
-%   raw RDM -> 2-D metric MDS -> unit-radius normalization
+%   raw RDM -> 2-D nonmetric MDS -> unit-radius normalization
 %   -> Procrustes align late to early
 %   -> ONE COMMON rotation determined by the LATE semantic centroid axis.
 %
@@ -1182,8 +1182,8 @@ R2 = complete_rdm(R2);
 R1 = max(R1,0);
 R2 = max(R2,0);
 
-% Metric MDS on the RAW cosine-distance RDM.
-% 'stress' directly fits the supplied dissimilarities in metric form.
+% Nonmetric MDS on the RAW cosine-distance RDM.
+% 'stress' fits a monotonic transformation of the supplied dissimilarities.
 [Y1,~] = mdscale(R1,2,'Criterion','stress');
 [Y2,~] = mdscale(R2,2,'Criterion','stress');
 

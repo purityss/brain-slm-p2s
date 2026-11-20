@@ -75,7 +75,7 @@ step05_plot_model_geometry_match_human(["baichuan_audio_instruct","freeze_omni"]
 
 - **序列：图 2e、f；补图 S3、S4。** `step03_plot_model_sequential_shadedSEM.m` 将原生 2/3/4 段插值到 4 个相对位置。各类 P/S 强度先在层内平均单元，再对有该类单元的层等权平均；对齐时插值到人脑 16 窗口，分别 Z 标准化 P/S 并串接，以 Pearson `r` 比较脑与模型。图在 `matlab_results/01_sequential_shadedSEM/`，表为 `matlab_results/sequential_alignment.xlsx`。带模型键参数运行会重写该表；合并前必须无参数运行全部模型。
 - **层级：图 2h、i；补图 S3、S4。** `step04_plot_model_hierarchy.m` 以每层全部模型单元为分母求三类比例，按深度分为约等长的 12 箱，并与以同侧 pmHG 距离排序的 12 脑区比例计算 Pearson `r`。平滑曲线只用于显示。图在 `matlab_results/02_hierarchy/`，表为 `matlab_results/hierarchical_alignment.xlsx`。合并脚本写出 `matlab_results/combined_alignment_summary.xlsx`。
-- **几何：图 5b、c、e、f、h、i；补图 S12b、c、e、f 和 S13–S24。** `step05_plot_model_geometry_match_human.m` 读取 14 模型的紧凑缓存，默认展示段 1 与 3。先层内平均单元 RDM，再层间等权；计算控制另一因素的距离对比及二维 MDS，嵌入经单位半径和 Procrustes 对齐。10,000 次受限置换的单侧 p 值按类别、维度在 4 段内 Holm 校正。图在 `matlab_results/03_geometry/figures/`，统计表为 `matlab_results/03_geometry/matlab_geometry_statistics_meanRDM_permHolm4.xlsx`。
+- **几何：图 5b、c、e、f、h、i；补图 S12b、c、e、f 和 S13–S24。** `step05_plot_model_geometry_match_human.m` 读取 14 模型的紧凑缓存，默认展示段 1 与 3。先层内平均单元 RDM，再层间等权；计算控制另一因素的距离对比及二维度量 MDS，嵌入经单位半径和 Procrustes 对齐。10,000 次受限置换的单侧 p 值按类别、维度在 4 段内 Holm 校正。图在 `matlab_results/03_geometry/figures/`，统计表为 `matlab_results/03_geometry/matlab_geometry_statistics_meanRDM_permHolm4.xlsx`。
 
 `step03_build_model_geometry_segment_cache.py` 用分类结果和 Step 02 RDM 生成几何缓存；绘图脚本读取 `matlab_results/03_geometry/segment_rdms_mat/` 中的现有缓存。
 

@@ -139,7 +139,7 @@ run(fullfile('code_for_all_sub_group','03_plot_sequential_hierarchical_geometry'
 **方法。** 对每类接触点和每个时间窗，先在被试内平均 RDM，再对被试
 等权平均。展示距离对比时，将组 RDM 标准化到 [0, 1]。音韵与语义
 聚类强度采用第 4 步相同的控制因素词对；10,000 次单侧受限标签置换
-检验在每类、每个维度的 16 个时间窗内分别作 Holm 校正。二维度量
+检验在每类、每个维度的 16 个时间窗内分别作 Holm 校正。二维非度量
 MDS 经单位半径标准化、Procrustes 对齐和共同旋转，以比较不同时窗
 的几何结构（Methods，“Sequence-resolved multidimensional scaling”）。
 

@@ -168,7 +168,7 @@ normalized to [0, 1] for the displayed distance contrasts. Phonological
 and semantic clustering use the same factor-controlled stimulus pairs as
 Step 4. One-sided restricted-label permutation tests (10,000) are corrected
 by Holm across all 16 windows separately for each dimension and class.
-Two-dimensional metric MDS of the group RDMs is aligned across windows by
+Two-dimensional nonmetric MDS of the group RDMs is aligned across windows by
 unit-radius normalization, Procrustes alignment, and a common rotation
 (Methods, “Sequence-resolved multidimensional scaling”).
 
