@@ -27,4 +27,4 @@ Model Python environment setup is described in [requirements/README.md](code_for
 
 ## Data use
 
-The repository includes anonymized participant RDMs, derived contact and region tables, model classification arrays, compact geometry caches, and figure summary tables. Raw participant data cannot be shared because of privacy and ethics requirements. Use of the derived neural data remains subject to the applicable data-use conditions.
+The repository includes de-identified participant RDMs, derived contact and region tables, model classification arrays, compact geometry caches, and figure summary tables. Raw participant data cannot be shared because of privacy and ethics requirements. Use of the derived neural data remains subject to the applicable data-use conditions.

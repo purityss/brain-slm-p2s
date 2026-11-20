@@ -512,10 +512,9 @@ def load_referenced_unit_rdm(source_rdm_file, source_dataset_path, unit_index_wi
 def save_source_reference(model_dir, source_rdm, spec):
     """Remove obsolete duplicate source-reference files.
 
-    The absolute and project-relative RDM paths are already stored in
-    ``analysis_metadata.json`` and in every selected-unit manifest row.  The
-    former symlink and two one-line text files duplicated those references and
-    were not consumed by any downstream analysis.
+    The project-relative RDM path is stored in ``analysis_metadata.json``.
+    The former symlink and two one-line text files duplicated that reference
+    and were not consumed by downstream analysis.
     """
     del source_rdm, spec
     for name in (
@@ -533,7 +532,7 @@ def materialize_selected_rdms(path, source_rdm, data, layer_rows, chunk_units):
     classes = data["class_code"]
     with h5py.File(source_rdm, "r") as source, h5py.File(temp, "w") as target:
         target.attrs["complete"] = np.int8(0)
-        target.attrs["source_rdm_file"] = str(source_rdm)
+        target.attrs["source_rdm_file"] = source_rdm.name
         source_layers = layer_datasets(source)
         root = target.create_group("layers")
         for row in layer_rows:
@@ -652,6 +651,8 @@ def process_model(spec, source_rdm, output_root, rows, cols, p_weights, s_weight
         print(f"[{spec.name}] complete output exists; use --overwrite to replace", flush=True)
         saved_metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
         saved_source = Path(saved_metadata.get("source_rdm_file", source_rdm))
+        if not saved_source.is_absolute():
+            saved_source = args.data_root / saved_source
         save_source_reference(model_dir, saved_source, spec)
         with np.load(npz_path) as saved:
             data = {key: saved[key] for key in saved.files}
@@ -666,6 +667,8 @@ def process_model(spec, source_rdm, output_root, rows, cols, p_weights, s_weight
     else:
         data, layer_rows, reused_source = reused
         source_rdm = Path(reused_source)
+        if not source_rdm.is_absolute():
+            source_rdm = args.data_root / source_rdm
     data["class_code"] = data[f"class_{args.method}"].astype(np.int8, copy=True)
     data["P_selected"] = np.isin(data["class_code"], (1, 3))
     data["S_selected"] = np.isin(data["class_code"], (2, 3))
@@ -681,10 +684,10 @@ def process_model(spec, source_rdm, output_root, rows, cols, p_weights, s_weight
 
     metadata = {
         "model": spec.name, "model_slug": spec.slug, "method": args.method,
-        "source_rdm_file": str(source_rdm), "permutations": args.permutations,
+        "source_rdm_file": str(source_rdm_relative_path(spec)), "permutations": args.permutations,
         "source_rdm_relative_to_data_root": str(source_rdm_relative_path(spec)),
         "seed": args.seed, "alpha": args.alpha, "device": str(device),
-        "python_executable": sys.executable, "python_version": sys.version,
+        "python_version": sys.version,
         "classification_uses_native_windows_only": True,
         "interpolation_used_in_classification": False,
         "eligibility": (
@@ -699,11 +702,11 @@ def process_model(spec, source_rdm, output_root, rows, cols, p_weights, s_weight
             "apply original P/S restricted permutations to residual; P and S are not partialled from one another"
             if args.method == "acoustic_residual_human_nominal_consecutive2" else None
         ),
-        "acoustic_rdm_file": str(args.acoustic_rdm.resolve()) if args.method == "acoustic_residual_human_nominal_consecutive2" else None,
+        "acoustic_rdm_file": args.acoustic_rdm.name if args.method == "acoustic_residual_human_nominal_consecutive2" else None,
         "acoustic_metric": args.acoustic_metric if args.method == "acoustic_residual_human_nominal_consecutive2" else None,
         "matlab_file_note": "HDF5-backed .mat exchange file; use MATLAB h5info/h5read",
         "rdm_storage": "materialized selected-unit copy" if args.materialize_selected_rdms else "lightweight source path + exact dataset/layer/unit references; no RDM file or symlink in results",
-        "reused_statistics_root": str(args.reuse_statistics_root.resolve()) if args.reuse_statistics_root else None,
+        "reused_statistics_root": args.reuse_statistics_root.name if args.reuse_statistics_root else None,
     }
     save_npz(npz_path, data)
     write_csv(layer_path, layer_rows)
@@ -802,7 +805,7 @@ def run_cli(method: str, default_output_name: str, description: str):
     run_metadata = {
         "method": method, "models": completed_models, "models_requested": [m.name for m in selected], "permutations": args.permutations,
         "alpha": args.alpha, "seed": args.seed, "device": str(device),
-        "python_executable": sys.executable, "python_version": sys.version,
+        "python_version": sys.version,
         "elapsed_minutes": (time.time() - started) / 60.0,
         "failures": failures,
     }
